@@ -11,10 +11,12 @@ Implementarea respectă *proprietățile fundamentale* ale unui RBT:
 - Toate drumurile de la un nod la frunzele sale conțin același număr de noduri negre (black-height);
 - Frunzele NIL sunt considerate negre pentru a simplifica logica arborelui și gestionarea pointerilor.
 
+
 Pentru a menține echilibrul arborelui, proiectul include:
 - *Rotații la stânga și la dreapta*, pentru a corecta dezechilibrele apărute în urma efectuării operațiilor de inserare, respectiv ștergere;
 - *Recolorări*, pentru a rezolva conflictele dintre nodurile roșii consecutive și pentru a păstra proprietățile black-height;
 - *Reechilibrare automată* după fiecare operație care poate afecta structura arborelui.
+
 
 
 ## [EN] ⬛️
@@ -27,7 +29,8 @@ The implementation highlights the core properties that define Red-Black Trees:
 - Every path from a node to its descendant null nodes (leaves / NIL) has the same number of black nodes (black-height);
 - All leaves are black;
 
-  To maintain balance and preserve these properties, the tree supports:
+
+To maintain balance and preserve these properties, the tree supports:
   - *Left and right rotations* to correct imbalances caused by insertions or deletions;
   - *Recoloring* to resolve color conflicts and maintain the black-height property;
   - *Automatic rebalancing*, ensuring that the tree remains balanced after any structural changes.
