@@ -19,7 +19,7 @@ Pentru a menține echilibrul arborelui, proiectul include:
 - **Reechilibrare automată** după fiecare operație care poate afecta structura arborelui.
 
 
-
+##
 ## [EN] ⬛️
 ## Overview
 This project focuses on the design and implementation of a **Red-Black Tree** (RBT) in C++, built with object-oriented programming principles to achieve a clean, modular and maintainable structure. A Red-Black Tree is a self-balancing binary search tree that ensures efficient performance, allowing insertion, search, and deletion operations to be performed in O(log n) time.
